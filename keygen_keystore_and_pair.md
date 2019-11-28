@@ -4,6 +4,12 @@
 keytool -genkey -v -keystore keystore.jks -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
 ```
 
+### Generate without any prompts
+
+```sh
+keytool -genkey -v -keystore keystore.jks -alias deepwav_alias -dname "CN=unknown, OU=unknown, O=unknown, L=unknown, S=unknown, C=unknown" -storepass deepwav -keyalg RSA -keysize 2048 -validity 10000
+```
+
 ### Use keystore to generate key pair
 
 ```sh
