@@ -7,7 +7,7 @@ in case base branch has been updated due to another feature branch merge
 git checkout base_branch
 git pull
 git checkout feature_branch
-git merge master
+git merge base_branch
 
 # resolve conflicts (if any)
 git commit (if required)
