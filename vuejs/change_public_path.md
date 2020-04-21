@@ -1,4 +1,4 @@
-* add vue.config.js file in root
+* add `vue.config.js` file in root
 
 * add content
 
