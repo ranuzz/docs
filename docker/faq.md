@@ -4,5 +4,5 @@
 ## How to build image ?
 > https://docs.docker.com/get-started/part2/  
 
-## Best practices for writing a Dockerdile ?
+## Best practices for writing a Dockerfile ?
 > https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
